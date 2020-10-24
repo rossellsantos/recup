@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	 <link rel="stylesheet" type="text/css" href="grafis/diseño.css">
+	<title>sec</title>
+
+	<script>
+		function comprobarClave(){
+			clave1 = document.f1.clave1.value
+			clave2 = document.f1.clave2.value
+
+
+			if (clave1 == "Hormigo" && clave2 == "60"){
+			alert("los datos coinciden ...\n Pase adelante");
+			var href ="inicio.html";
+			window.location=href;
+    }
+
+    else{ 
+    	alert("las dos claves son distintas...\n intente nuevamente.");
+    	var href = "index.html";
+    	window.location=href;
+    };
+
+  }
+
+</script>
+</head>
+<body>
+
+<header > <h2 id="encabe"> Bienvenidos
+	<img src="logo_carpinteria-removebg-preview.png" width="70" height="50" align="right">
+</header>
+
+	<div id="div1">
+		
+	<header  ><center> <h1>CARPINTERÍA EL HORMIGO</h1>   </center></header>
+
+</div>
+
+
+
+
+<nav  id="nav1"  >
+
+
+    <ul id="ul1">
+   
+
+</a></li>
+
+    <li class="li1" ><a href="inicio.html" style="text-decoration: none">Inicio</a></li>
+    <li class="li1"><a href="historia.html"style="text-decoration: none"> Historia</a></li> 
+    <li class="li1"><a href="Servicios.html"style="text-decoration: none"> Servicios</a></li> 
+    <li class ="li1"><a href="contacto.html"style="text-decoration: none">Contacto</a></li>
+    <li class ="li1"><a href="registro.html"style="text-decoration: none">Registro</a></li> 
+    <li class ="li1"><a href="filosofia.html"style="text-decoration: none">Filosofía</a></li>
+</ul>    
+</ul>   
+</nav> 
+
+
+
+
+<aside id="aside1"><p>
+Nuestra empresa es destacada por la dedicación, esmero, esfuerzo y sobre todo el amor que le dedicamos a nuestros productos, nos encanta ver las sonrisas de nuestros clientes satisfechos y sabemos que no solo hacemos objetos, hacemos historia y recuerdos. </p>
+
+</aside>
+
+
+
+
+
+
+
+<section>
+	
+	
+<P>
+
+	<br>
+	<form action="" name="f1" style="text-align: center;text-indent: unset; ">
+		USUARIO: <input type="password" name ="clave1" size="20">
+		<br>
+		PON TU CLAVE:  <input type="password" name ="clave2" size="20">
+		<br>
+		<br>
+		<input type="button" value=" VERIFICAR "  onclick="comprobarClave()  " >
+
+	</form>
+	</P>
+	
+</section>
+<img src="carpinteria1.png" width="200" height="150" id="logoblanco" align="center">
+<img src="carpinteria2.png" width="200" height="150" id="logoblanco" align="center">
+<img src="carpinteria3.png" width="200" height="150" id="logoblanco" align="center">
+<img src="carpinteria4.png" width="200" height="150" id="logoblanco" align="center">
+<img src="carpinteria5.png" width="200" height="150" id="logoblanco" align="center">
+
+
+<footer><p>Derechos reservados Ciudad de Guatemala 22 de Octubre de 2020. Hecho por Angelli R. Santos
+para carpintería El Hormigo</p></footer>
+
+
+
+</body>
+</html>
