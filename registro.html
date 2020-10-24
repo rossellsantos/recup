@@ -4,35 +4,22 @@
 
 	 <link rel="stylesheet" type="text/css" href="grafis/diseño.css">
 	<title>Inicio</title>
+
+
 </head>
 
 <body>
 
-	<script >
-  function comprobarClave(){
-    alert("Se ha registrado exitosamente  ...\n Pronto te enviaremos un correo");
-      var href ="registro.html";
-      window.location=href;
-    }
-
-</script>
-
-
-
+      
 <header > <h2 id="encabe"> Bienvenidos
-	<img src="logo_carpinteria-removebg-preview.png" width="70" height="50" align="right">
+  <img src="logo_carpinteria-removebg-preview.png" width="70" height="50" align="right">
 </header>
 
-	<div id="div1">
-		
-	<header  ><center> <h1>CARPINTERÍA EL HORMIGO</h1>   </center></header>
+  <div id="div1">
+    
+  <header  ><center> <h1>CARPINTERÍA EL HORMIGO</h1>   </center></header>
 
 </div>
-
-
-
-
-
 
 
 <nav  id="nav1"  >
@@ -66,10 +53,60 @@ Nuestra empresa es destacada por la dedicación, esmero, esfuerzo y sobre todo e
 
 
 
-<section>
+<section style="color: white">
 	
 
-		
+
+
+
+
+
+
+<a><li><center><h2> <em>Formulario de registro </em></h2></center></li></a>
+</nav>
+
+<br>
+<br>
+
+<form action="registro.php" method="POST">
+ 
+ <label for="dpi">DPI <span><em>(Requerido)</em></span></label>
+ <input type="text" name="dpi" class="form-input" required/>
+ <br>
+ <br>
+ <label for="nombre">Nombre <span><em>(Requerido)</em></span></label>
+ <input type="text" name="nombre" class="form-input" required/>
+ <br>
+ <br>
+ <label for="apellido">Apellido <span><em>(Requerido)</em></span></label>
+ <input type="text" name="apellido" class="form-input" required/>
+ <br>
+ <br>
+ <label for="coreo">Correo<span><em>(Requerido)</em></span></label>
+ <input type="text" name="Correo" class="form-input" required/>
+ <br>
+ <br>
+
+
+Quieres recibir nuestras ofertas : <BR>
+<br>
+<INPUT type= radio name=edad value= "-20"> si
+<INPUT type= radio name=edad value= "20-40"> no
+<br>
+<br>
+
+Tus comentarios:
+<BR>
+<TEXTAREA name=comentario rows=5 cols=40 wrap=virtual>
+</TEXTAREA>
+<br>
+<br>
+<button style="color: black" > <a href="perro.html" style="color: black"> Registrar
+ </a></button>
+
+<button style="color: black"> <a href="registro.html"style="color: black"> Borrar </a></button>
+
+
 	
 </section>
 <img src="carpinteria1.png" width="200" height="150" id="logoblanco" align="center">
